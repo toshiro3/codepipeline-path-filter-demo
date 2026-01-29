@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started at $(date)"
+      - echo "Source files:"
+      - ls -la
+      - echo "Build completed!"
